@@ -1,21 +1,27 @@
 * {
 	color: rgb(225,67,24);
+	text-shadow: 1px 1px rgb(0,0,0);
 	background-color: transparent;
 	z-index:-1;
 }
 
-aside{
-	position: fixed;
-	top: 15%;
-	bottom: 15%;
-	left: 60%;
-	z-index: 1;
+@media screen and (min-width: 680px){
+	aside{
+		position: fixed;
+		top: 15%;
+		bottom: 15%;
+		left: 60%;
+		z-index: 1;
+	}
+
+	aside h2{
+			background-color: rgba(255,255,255, .6);
+	}
 }
 
 body{
 	background-image: url("char-background.png");
 	background-size: 100%;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
@@ -23,6 +29,26 @@ body{
 	margin: auto;
 	width: 50%;
 }
+
+form{
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+}
+
+form button{
+	width: 100%;
+	background-color: rgba(225,67,24,.5);
+	color: black;
+}
+
+form button:hover{
+	background-color: rgba(0,0,0,1);
+	color: rgb(225,67,24);
+}
+
+/*h2{
+	background-color: rgba(0,0,0,.5);
+}*/
 
 iframe{
 	width: 100%
@@ -34,4 +60,17 @@ p {
 
 section{
 	width: 50%;
+}
+
+select{
+	background-color: rgba(255,255,255,.5);
+}
+
+table{
+	background-color: rgba(255,255,255,.5);
+}
+
+textarea{
+	width: 100%;
+	background-color: rgba(255,255,255,.5);
 }
