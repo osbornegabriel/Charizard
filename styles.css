@@ -65,6 +65,8 @@ body{
 form{
 	width: 100%;
 	background-color: rgba(0,0,0,.5);	
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 form button{
@@ -112,6 +114,7 @@ iframe{
 	border-color: rgba(255,255,255,.5);
 	border-style: solid;
 	border-width: 1px;
+	margin-bottom: 10px;
 }
 
 #lame_charizard_page p{
@@ -129,9 +132,9 @@ select{
 	background-color: rgba(255,255,255,.5);
 }
 
-.space{
+/*.space{
 	padding: 1%;
-}
+}*/
 
 table{
 	background-color: rgba(255,255,255,.5);
