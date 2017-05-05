@@ -1,5 +1,6 @@
 * {
 	color: rgb(225,67,24);
+	background-color: transparent;
 	z-index:-1;
 }
 
@@ -9,6 +10,13 @@ aside{
 	bottom: 15%;
 	left: 60%;
 	z-index: 1;
+}
+
+body{
+	background-image: url("char-background.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 #copyright {
