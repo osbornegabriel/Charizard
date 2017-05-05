@@ -46,9 +46,14 @@ form button:hover{
 	color: rgb(225,67,24);
 }
 
+#good_job{
+	background: none;
+}
+
 /*h2{
 	background-color: rgba(0,0,0,.5);
 }*/
+
 
 iframe{
 	width: 100%
