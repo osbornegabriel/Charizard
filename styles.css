@@ -5,11 +5,11 @@
 	z-index:-1;
 }
 
-/*aside{
+aside{
 	padding-bottom: 15px;
-}*/
+}
 
-@media screen and (min-width: 680px) and (min-height: 400px){
+@media screen and (min-width: 680px) and (min-height: 475px){
 	aside{
 		position: fixed;
 		top: 15%;
@@ -24,6 +24,10 @@
 
 	section{
 	width: 50%;
+	}
+
+	#lame_charizard_page{
+		width: 49%;
 	}
 }
 
@@ -98,21 +102,35 @@ h2{
 	 0px -2px 4px #C33;     
 }
 
+
 iframe{
 	width: 100%
 }
 
+#lame_charizard_page{
+	padding: .5%;
+	border-color: rgba(255,255,255,.5);
+	border-style: solid;
+	border-width: 1px;
+}
+
+#lame_charizard_page p{
+	color: black;
+	text-shadow:  1.5px 1.25px rgb(238,131,40);
+	background-color: rgba(255,255,255,.7);
+}
 
 p {
 	color: rgb(238,131,40);
 	font-weight: bold;
 }
 
-
-
-
 select{
 	background-color: rgba(255,255,255,.5);
+}
+
+.space{
+	padding: 1%;
 }
 
 table{
