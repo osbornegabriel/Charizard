@@ -5,7 +5,11 @@
 	z-index:-1;
 }
 
-@media screen and (min-width: 680px){
+/*aside{
+	padding-bottom: 15px;
+}*/
+
+@media screen and (min-width: 680px) and (min-height: 400px){
 	aside{
 		position: fixed;
 		top: 15%;
@@ -16,6 +20,10 @@
 
 	aside h2{
 			background-color: rgba(255,255,255, .6);
+	}
+
+	section{
+	width: 50%;
 	}
 }
 
@@ -34,14 +42,25 @@ body{
 	color: ;
 }
 
+#char-survey{
+
+}
+
+@media screen and (max-width: 680px){
+	#char-survey{
+		width: 100%;
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
 #copyright {
 	margin: auto;
 	width: 50%;
 }
 
 form{
-	background-color: rgba(0,0,0,.5);
 	width: 100%;
+	background-color: rgba(0,0,0,.5);	
 }
 
 form button{
@@ -83,13 +102,14 @@ iframe{
 	width: 100%
 }
 
+
 p {
 	color: rgb(238,131,40);
+	font-weight: bold;
 }
 
-section{
-	width: 50%;
-}
+
+
 
 select{
 	background-color: rgba(255,255,255,.5);
