@@ -5,6 +5,10 @@
 	z-index:-1;
 }
 
+a:visited{
+	color: rgb(139,164,204);
+}
+
 aside{
 	padding-bottom: 15px;
 }
@@ -60,6 +64,7 @@ body{
 #copyright {
 	margin: auto;
 	width: 50%;
+	color: rgb(225,67,24);
 }
 
 form{
@@ -121,6 +126,10 @@ iframe{
 	color: black;
 	text-shadow:  1.5px 1.25px rgb(238,131,40);
 	background-color: rgba(255,255,255,.7);
+}
+
+li{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 p {
