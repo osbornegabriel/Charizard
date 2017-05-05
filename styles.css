@@ -1,3 +1,163 @@
 * {
 	color: rgb(225,67,24);
+	text-shadow: 1.5px 1.25px rgb(0,0,0);
+	background-color: transparent;
+	z-index:-1;
+}
+
+a:visited{
+	color: rgb(139,164,204);
+}
+
+aside{
+	padding-bottom: 15px;
+}
+
+@media screen and (min-width: 680px) and (min-height: 475px){
+	aside{
+		position: fixed;
+		top: 15%;
+		bottom: 15%;
+		left: 60%;
+		z-index: 1;
+	}
+
+	aside h2{
+			background-color: rgba(255,255,255, .6);
+	}
+
+	section{
+	width: 50%;
+	}
+
+	#lame_charizard_page{
+		width: 49%;
+	}
+}
+
+a:hover{
+	font-style: italic;
+	background-color: black;
+}
+
+body{
+	background-image: url("char-background.png");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#char-best{
+	color: ;
+}
+
+#char-survey{
+
+}
+
+@media screen and (max-width: 680px){
+	#char-survey{
+		width: 100%;
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+#copyright {
+	margin: auto;
+	width: 50%;
+	color: rgb(225,67,24);
+}
+
+form{
+	width: 100%;
+	background-color: rgba(0,0,0,.5);	
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+form button{
+	width: 100%;
+	background-color: rgba(225,67,24,.5);
+	color: black;
+	text-shadow: none;
+	font-weight: bold;
+}
+
+form button:hover{
+	background-color: rgba(0,0,0,1);
+	color: rgb(225,67,24);
+}
+
+#good_job{
+	background: none;
+}
+
+h1{
+	color: black;
+	 text-shadow:
+	 0px -.2px .4px #fff,
+	 0px -.2px 1px #FF3,
+	 0px -1px 2px #F90,
+	 0px -2px 4px #C33;   
+}
+
+h2{
+	color: black;
+	 text-shadow:
+	 0px -.2px .4px #fff,
+	 0px -.2px 1px #FF3,
+	 0px -1px 2px #F90,
+	 0px -2px 4px #C33;     
+}
+
+
+iframe{
+	width: 100%
+}
+
+#lame_charizard_page{
+	padding: .5%;
+	border-color: rgba(255,255,255,.5);
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 10px;
+}
+
+#lame_charizard_page p{
+	color: black;
+	text-shadow:  1.5px 1.25px rgb(238,131,40);
+	background-color: rgba(255,255,255,.7);
+}
+
+li{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+p {
+	color: rgb(238,131,40);
+	font-weight: bold;
+}
+
+select{
+	background-color: rgba(255,255,255,.5);
+}
+
+/*.space{
+	padding: 1%;
+}*/
+
+table{
+	background-color: rgba(255,255,255,.5);
+}
+
+textarea{
+	width: 100%;
+	background-color: rgba(255,255,255,.5);
+}
+
+.x{
+	color: rgb(139,164,204);
+}
+
+.y{
+	color: rgb(238,131,40);
 }
